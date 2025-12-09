@@ -1,7 +1,7 @@
 ![Tags](./resources/tags-banner.png)
 
 # Tags
-A tag manager for Craft 3
+A tag manager for Craft CMS
 
 ## Key Features
 
@@ -11,7 +11,7 @@ A tag manager for Craft 3
 ## Installation
 
 - Install via the Plugin Store by searching for **Tags**
-- Install via composer with `composer require ether/tags`
+- Install via composer with `composer require onstuimig/craft-tags`
 
 ## Screenshots
 

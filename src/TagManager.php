@@ -1,12 +1,12 @@
 <?php
 /**
- * Tags for Craft 3
+ * Tags for Craft CMS
  *
  * @link      https://ethercreative.co.uk
  * @copyright Copyright (c) 2018 Ether Creative
  */
 
-namespace ether\tagManager;
+namespace onstuimig\tagmanager;
 
 use Craft;
 use craft\base\Element;
@@ -20,9 +20,9 @@ use craft\gatsbyhelper\events\RegisterIgnoredTypesEvent;
 use craft\gatsbyhelper\services\Deltas;
 use craft\web\twig\variables\Cp;
 use craft\web\UrlManager;
-use ether\tagManager\elements\actions\Delete;
-use ether\tagManager\elements\Tag;
-use ether\tagManager\models\Settings;
+use onstuimig\tagmanager\elements\actions\Delete;
+use onstuimig\tagmanager\elements\Tag;
+use onstuimig\tagmanager\models\Settings;
 use Twig\Error\LoaderError;
 use Twig\Error\RuntimeError;
 use Twig\Error\SyntaxError;
@@ -33,7 +33,7 @@ use yii\base\Exception;
  * Class Tags
  *
  * @author  Ether Creative
- * @package ether\tags
+ * @package onstuimig\tags
  */
 class TagManager extends Plugin
 {

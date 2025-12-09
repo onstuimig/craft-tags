@@ -1,12 +1,12 @@
 <?php
 /**
- * Tags for Craft 3
+ * Tags for Craft CMS
  *
  * @link      https://ethercreative.co.uk
  * @copyright Copyright (c) 2018 Ether Creative
  */
 
-namespace ether\tagManager\web\assets;
+namespace onstuimig\tagmanager\web\assets;
 
 use craft\web\AssetBundle;
 use craft\web\assets\cp\CpAsset;
@@ -15,7 +15,7 @@ use craft\web\assets\cp\CpAsset;
  * Class TagIndexAsset
  *
  * @author  Ether Creative
- * @package ether\tagManager\web\assets\index
+ * @package onstuimig\tagmanager\web\assets\index
  */
 class TagIndexAsset extends AssetBundle
 {

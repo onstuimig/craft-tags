@@ -6,7 +6,7 @@
  * @copyright Copyright (c) 2019 Ether Creative
  */
 
-namespace ether\tagManager\models;
+namespace onstuimig\tagmanager\models;
 
 use craft\base\Model;
 
@@ -14,7 +14,7 @@ use craft\base\Model;
  * Class Settings
  *
  * @author  Ether Creative
- * @package ether\tagManager\models
+ * @package onstuimig\tagmanager\models
  */
 class Settings extends Model
 {

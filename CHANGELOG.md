@@ -1,3 +1,7 @@
+## 3.0.0 - 2025-12-09
+### Added
+- Craft 5 support
+
 ## 2.0.0 - 2022-10-31 🎃
 ### Changed
 - Update for Craft 4 via @davidwebca

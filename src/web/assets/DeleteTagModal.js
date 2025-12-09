@@ -94,7 +94,7 @@ Craft.DeleteTagModal = Garnish.Modal.extend({
 		this.userSelect = new Craft.BaseElementSelectInput({
 			id: 'replaceselect' + this.id,
 			name: 'replaceWith',
-			elementType: 'ether\\tagManager\\elements\\Tag',
+			elementType: 'onstuimig\\tagmanager\\elements\\Tag',
 			criteria: {
 				id: idParam,
 			},

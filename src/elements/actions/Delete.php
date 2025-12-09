@@ -1,19 +1,19 @@
 <?php
 /**
- * Tags for Craft 3
+ * Tags for Craft CMS
  *
  * @link      https://ethercreative.co.uk
  * @copyright Copyright (c) 2018 Ether Creative
  */
 
-namespace ether\tagManager\elements\actions;
+namespace onstuimig\tagmanager\elements\actions;
 
 use Craft;
 use craft\base\ElementAction;
 use craft\elements\db\ElementQueryInterface;
 use craft\helpers\Json;
-use ether\tagManager\elements\Tag;
-use ether\tagManager\web\assets\DeleteTagAsset;
+use onstuimig\tagmanager\elements\Tag;
+use onstuimig\tagmanager\web\assets\DeleteTagAsset;
 use Throwable;
 use yii\base\InvalidConfigException;
 use yii\db\Exception;
@@ -22,7 +22,7 @@ use yii\db\Exception;
  * Class Delete
  *
  * @author  Ether Creative
- * @package ether\tagManager\elements\actions
+ * @package onstuimig\tagmanager\elements\actions
  */
 class Delete extends ElementAction
 {

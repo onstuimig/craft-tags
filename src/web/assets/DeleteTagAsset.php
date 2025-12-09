@@ -1,12 +1,12 @@
 <?php
 /**
- * Tags for Craft 3
+ * Tags for Craft CMS
  *
  * @link      https://ethercreative.co.uk
  * @copyright Copyright (c) 2018 Ether Creative
  */
 
-namespace ether\tagManager\web\assets;
+namespace onstuimig\tagmanager\web\assets;
 
 use craft\web\assets\cp\CpAsset;
 use yii\web\AssetBundle;
@@ -15,7 +15,7 @@ use yii\web\AssetBundle;
  * Class DeleteTagAsset
  *
  * @author  Ether Creative
- * @package ether\tagManager\web\assets
+ * @package onstuimig\tagmanager\web\assets
  */
 class DeleteTagAsset extends AssetBundle
 {

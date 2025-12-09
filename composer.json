@@ -1,8 +1,8 @@
 {
-  "name": "ether/tags",
-  "description": "A tag manager for Craft 3",
+  "name": "onstuimig/craft-tags",
+  "description": "A tag manager for Craft CMS",
   "type": "craft-plugin",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "keywords": [
     "craft",
     "cms",
@@ -11,28 +11,46 @@
     "tags"
   ],
   "support": {
-    "docs": "https://github.com/ethercreative/tags/blob/master/README.md",
-    "issues": "https://github.com/ethercreative/tags/issues"
+    "docs": "https://github.com/onstuimig/craft-tags/blob/master/README.md",
+    "issues": "https://github.com/onstuimig/craft-tags/issues"
   },
   "license": "proprietary",
   "authors": [
+    {
+      "name": "Onstuimig",
+      "homepage": "https://onstuimig.nl"
+    },
     {
       "name": "Ether Creative",
       "homepage": "https://ethercreative.co.uk"
     }
   ],
   "require": {
-    "craftcms/cms": "^4.0"
+    "craftcms/cms": "^4.0.0||^5.0.0",
+    "php": "^8.0.2"
   },
+	"require-dev": {
+      "craftcms/phpstan": "dev-main",
+	  	"craftcms/rector": "dev-main"
+    },
   "autoload": {
     "psr-4": {
-      "ether\\tagManager\\": "src/"
+      "onstuimig\\tagmanager\\": "src/"
     }
   },
   "extra": {
     "name": "Tags",
     "handle": "tag-manager",
-    "changelogUrl": "https://raw.githubusercontent.com/ethercreative/tags/master/CHANGELOG.md",
-    "class": "ether\\tagManager\\TagManager"
-  }
+    "changelogUrl": "https://raw.githubusercontent.com/onstuimig/craft-tags/refs/heads/master/CHANGELOG.md",
+    "class": "onstuimig\\tagmanager\\TagManager"
+  },
+	"scripts": {
+    "phpstan": "phpstan --memory-limit=1G"
+  },
+	"config": {
+		"allow-plugins": {
+			"yiisoft/yii2-composer": true,
+			"craftcms/plugin-installer": true
+		}
+	}
 }

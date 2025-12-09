@@ -1,12 +1,12 @@
 <?php
 /**
- * Tags for Craft 3
+ * Tags for Craft CMS
  *
  * @link      https://ethercreative.co.uk
  * @copyright Copyright (c) 2018 Ether Creative
  */
 
-namespace ether\tagManager\controllers;
+namespace onstuimig\tagmanager\controllers;
 
 use Craft;
 use craft\base\Element;
@@ -19,8 +19,8 @@ use craft\helpers\Json;
 use craft\helpers\UrlHelper;
 use craft\web\Controller;
 use craft\web\View;
-use ether\tagManager\web\assets\TagEditAsset;
-use ether\tagManager\web\assets\TagIndexAsset;
+use onstuimig\tagmanager\web\assets\TagEditAsset;
+use onstuimig\tagmanager\web\assets\TagIndexAsset;
 use Throwable;
 use yii\base\Exception;
 use yii\base\InvalidConfigException;
@@ -33,7 +33,7 @@ use yii\web\ServerErrorHttpException;
  * Class Controller
  *
  * @author  Ether Creative
- * @package ether\tagManager\controllers
+ * @package onstuimig\tagmanager\controllers
  */
 class CpController extends Controller
 {

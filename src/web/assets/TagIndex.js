@@ -205,6 +205,6 @@ Craft.TagsIndex = Craft.BaseElementIndex.extend({
 });
 
 Craft.registerElementIndexClass(
-	'ether\\tagManager\\elements\\Tag',
+	'onstuimig\\tagmanager\\elements\\Tag',
 	Craft.TagsIndex
 );

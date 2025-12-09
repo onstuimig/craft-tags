@@ -1,5 +1,6 @@
 # COMPOSER
 /vendor
+composer.lock
 
 # BUILD FILES
 node_modules/

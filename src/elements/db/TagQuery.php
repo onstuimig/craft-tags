@@ -6,17 +6,17 @@
  * @copyright Copyright (c) 2019 Ether Creative
  */
 
-namespace ether\tagManager\elements\db;
+namespace onstuimig\tagmanager\elements\db;
 
 use Craft;
-use ether\tagManager\TagManager;
+use onstuimig\tagmanager\TagManager;
 use yii\db\Expression;
 
 /**
  * Class TagQuery
  *
  * @author  Ether Creative
- * @package ether\tagManager\elements\db
+ * @package onstuimig\tagmanager\elements\db
  */
 class TagQuery extends \craft\elements\db\TagQuery
 {
@@ -24,7 +24,7 @@ class TagQuery extends \craft\elements\db\TagQuery
 	protected function afterPrepare (): bool
 	{
 		// due to the introduction of type filtering in element queries (see:https://github.com/craftcms/cms/discussions/9806)
-		// we have to make sure that the query is filtering based on 'craft\elements\Tag' and not 'ether\tagManager\elements\Tag'
+		// we have to make sure that the query is filtering based on 'craft\elements\Tag' and not 'onstuimig\tagmanager\elements\Tag'
 		for($i = 0; $i <= count($this->subQuery->where); $i++) {
 			if( !empty($this->subQuery->where[$i]['elements.type']) ) { 
 				$this->subQuery->where[$i]['elements.type'] = 'craft\elements\Tag';

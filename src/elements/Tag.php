@@ -1,18 +1,18 @@
 <?php
 /**
- * Tags for Craft 3
+ * Tags for Craft CMS
  *
  * @link      https://ethercreative.co.uk
  * @copyright Copyright (c) 2018 Ether Creative
  */
 
-namespace ether\tagManager\elements;
+namespace onstuimig\tagmanager\elements;
 
 use Craft;
 use craft\elements\db\ElementQueryInterface;
 use craft\helpers\UrlHelper;
-use ether\tagManager\elements\db\TagQuery;
-use ether\tagManager\TagManager;
+use onstuimig\tagmanager\elements\db\TagQuery;
+use onstuimig\tagmanager\TagManager;
 use Throwable;
 use yii\base\InvalidConfigException;
 use yii\db\Query;
@@ -21,7 +21,7 @@ use yii\db\Query;
  * Class TagManager
  *
  * @author  Ether Creative
- * @package ether\tagManager\elements
+ * @package onstuimig\tagmanager\elements
  */
 class Tag extends \craft\elements\Tag
 {

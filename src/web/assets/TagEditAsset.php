@@ -6,7 +6,7 @@
  * @copyright Copyright (c) 2019 Ether Creative
  */
 
-namespace ether\tagManager\web\assets;
+namespace onstuimig\tagmanager\web\assets;
 
 use craft\web\AssetBundle;
 use craft\web\assets\cp\CpAsset;
@@ -15,7 +15,7 @@ use craft\web\assets\cp\CpAsset;
  * Class TagEditAsset
  *
  * @author  Ether Creative
- * @package ether\tagManager\web\assets
+ * @package onstuimig\tagmanager\web\assets
  */
 class TagEditAsset extends AssetBundle
 {
