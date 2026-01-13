@@ -30,8 +30,8 @@ class Tag extends \craft\elements\Tag
 	// =========================================================================
 
 	/** @var Tag|null */
-	public ?Tag $replaceWith;
-	public ?int $usage;
+	public ?Tag $replaceWith = null;
+	public ?int $usage = null;
 
 	// Methods
 	// =========================================================================
