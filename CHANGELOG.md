@@ -1,3 +1,11 @@
+## 3.1.0 - 2026-01-13
+## Changed
+- Use native Craft edit form to allow usage of UI fields and tabs (Fixes #24 via @danbrellis)
+
+## Fixed
+- Fixed element index cache invalidation (Fixes #21 and #18 via @vnali)
+- Fixed export errors due to missing property values (via @mike-moreau)
+
 ## 3.0.0 - 2025-12-09
 ### Added
 - Craft 5 support
